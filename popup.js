@@ -68,6 +68,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }, 100);
     } else {
       renderHTML('Page Not Supported');
+      setTimeout(()=>{
+        window.close();
+      }, 2000);
     }
   });
 });
